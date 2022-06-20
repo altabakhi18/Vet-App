@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">VetApp</string>
+    <string name="img_happyPawslogo">Happy Paws Logo</string>
+    <string name="logo_description">Happy Paws Logo</string>
 </resources>
