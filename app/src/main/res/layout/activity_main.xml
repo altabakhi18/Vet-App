@@ -5,8 +5,8 @@
     android:id="@+id/img_homescreenBackground"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/HappyPaws_HomeScreen_Background"
-    tools:context=".MainActivity" >
+    android:background="@drawable/img_homescreen_background"
+    tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/txt_login_username"
