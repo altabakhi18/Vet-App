@@ -6,6 +6,9 @@
         <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/activity_main.xml" value="0.2327760891590679" />
         <entry key="app/src/main/res/drawable/buttonstyle.xml" value="0.51" />
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.51" />
+        <entry key="app/src/main/res/layout/activity_createaccount.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/activity_homescreen.xml" value="0.4015625" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.5442708333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.45" />
       </map>
     </option>
