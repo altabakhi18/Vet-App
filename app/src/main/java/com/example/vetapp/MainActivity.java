@@ -1,59 +1,41 @@
 package com.example.vetapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.material.textfield.TextInputEditText;
-
-import java.util.Objects;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
-    private TextInputEditText username, password;
-    private AppCompatButton login;
 
-    TextView insert;
-    DBHelper DB = new DBHelper(MainActivity.this);
+    EditText username, password;
+    //Button insert, update, delete, view;
+    TextView create;
+    DatabaseReference reff;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        username = findViewById(R.id.txt_login_username);
-        password = findViewById(R.id.txt_login_password);
-        login = findViewById(R.id.btn_login);
-
-        login.setOnClickListener(view -> {
-                if(Objects.requireNonNull(username.getText()).length() > 0 && Objects.requireNonNull(password.getText()).length() > 0) {
-                    String toastMessage = "Login Successful";
-                    Toast.makeText(getApplicationContext(), toastMessage, Toast.LENGTH_SHORT).show();
-                }
-                else{
-                    String toastMessage = "Login Unsuccessful";
-                    Toast.makeText(getApplicationContext(), toastMessage, Toast.LENGTH_SHORT).show();
-                }
-        });
-
-        insert = findViewById(R.id.txt_createAccountLink);
-
-        insert.setOnClickListener(new View.OnClickListener(){
+        TextView accountCreate = (TextView) findViewById(R.id.txt_createAccountLink);
+        accountCreate.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
-
-
-                boolean checkInsertData = DB.insertUserAccount("user@gmail.com", "password");
-                if(checkInsertData){
-                    Toast.makeText(MainActivity.this, "New Entry Inserted", Toast.LENGTH_SHORT).show();
-                }
-                else{
-                    Toast.makeText(MainActivity.this, "New Entry Not Inserted", Toast.LENGTH_SHORT).show();
-                }
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, createaccount.class));
             }
         });
+
+        //create = findViewById(R.id.txt_createAccountLink);
+        //create.setOnClickListener(this);
+
+        username = (EditText) findViewById(R.id.txt_login_username);
+        password = (EditText) findViewById(R.id.txt_login_password);
     }
 }
