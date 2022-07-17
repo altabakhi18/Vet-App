@@ -2,4 +2,40 @@
     <string name="app_name">VetApp</string>
     <string name="img_happyPawslogo">Happy Paws Logo</string>
     <string name="logo_description">Happy Paws Logo</string>
+    <string name="img_homescreenBackground">Happy Paws Logo on Yellow background</string>
+    <string name="txt_login_username">username</string>
+    <string name="txt_login_password">password</string>
+    <string name="txt_HP_address">3232 Southpaw Lane</string>
+    <string name="txt_HP_cityState">Chicago, Illinois</string>
+    <string name="txt_HP_phone">312-323-3232</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="txt_createAccountLink">NEW HERE? CREATE AN ACCOUNT!</string>
+    <string name="txt_create_username">username</string>
+    <string name="txt_create_firstname">first name</string>
+    <string name="txt_create_lastname">last name</string>
+    <string name="txt_create_password">password</string>
+    <string name="txt_create_passwordverify">verify password</string>
+    <string name="txt_create_email">email</string>
+    <string name="txt_create_phone">phone</string>
+    <string name="txt_create_backtologin">ALREADY HAVE AN ACCOUNT? LOGIN!</string>
+    <string name="btn_createaccount">CREATE ACCOUNT</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="txt_welcome">WELCOME TO HAPPY PAWS!</string>
+    <string name="txt_instructions">Use the hamburger menu in the top right corner to navigate.</string>
+    <string name="title_activity_pets_home_screen">petsHomeScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="link_petsApptHistory">Appointment History</string>
+    <string name="link_petsCurrentRX">Current Prescriptions</string>
+    <string name="link_petsVax">Vaccinations</string>
+
 </resources>
