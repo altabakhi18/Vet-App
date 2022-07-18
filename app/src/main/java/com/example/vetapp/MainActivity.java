@@ -32,9 +32,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //create = findViewById(R.id.txt_createAccountLink);
-        //create.setOnClickListener(this);
-
         username = (EditText) findViewById(R.id.txt_login_username);
         password = (EditText) findViewById(R.id.txt_login_password);
     }
