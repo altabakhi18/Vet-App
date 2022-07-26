@@ -3,32 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/activity_createaccount.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/activity_homescreen.xml" value="0.23860182370820668" />
         <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/activity_main.xml" value="0.2327760891590679" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/activity_main_login.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/activity_navigation.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/activity_pets_appt_history.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/activity_pets_home_screen.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/activity_pets_rx.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/activity_pets_vax.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/app_bar_navigation.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/content_navigation.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/fragment_gallery.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/fragment_home.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/fragment_slideshow.xml" value="0.23860182370820668" />
-        <entry key="..\:/Users/altab/AndroidStudioProjects/VetApp/app/src/main/res/layout/nav_header_navigation.xml" value="0.23860182370820668" />
+ HEAD
+ Updated upstream
+=======
         <entry key="..\:/Users/neeno/AndroidStudioProjects/Vet-App/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/neeno/AndroidStudioProjects/Vet-App/app/src/main/res/layout-w936dp/activity_login.xml" value="0.190625" />
         <entry key="..\:/Users/neeno/AndroidStudioProjects/Vet-App/app/src/main/res/layout/activity_createaccount.xml" value="0.2" />
         <entry key="..\:/Users/neeno/AndroidStudioProjects/Vet-App/app/src/main/res/layout/activity_homescreen.xml" value="0.2" />
         <entry key="..\:/Users/neeno/AndroidStudioProjects/Vet-App/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
+>>>>>>> app-2-login
         <entry key="app/src/main/res/drawable/buttonstyle.xml" value="0.51" />
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.51" />
         <entry key="app/src/main/res/layout/activity_createaccount.xml" value="0.45" />
         <entry key="app/src/main/res/layout/activity_homescreen.xml" value="0.4015625" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.5442708333333334" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_pets_appt_history.xml" value="0.4473958333333333" />
+        <entry key="app/src/main/res/layout/activity_pets_home_screen.xml" value="0.42617753623188404" />
+        <entry key="app/src/main/res/layout/activity_pets_rx.xml" value="0.4473958333333333" />
+        <entry key="app/src/main/res/layout/activity_pets_vax.xml" value="0.4473958333333333" />
+=======
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5045289855072463" />
+>>>>>>> Stashed changes
       </map>
     </option>
   </component>
