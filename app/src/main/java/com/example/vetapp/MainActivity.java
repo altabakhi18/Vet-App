@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_login);
+        setContentView(R.layout.activity_main);
         TextView accountCreate = (TextView) findViewById(R.id.txt_createAccountLink);
         accountCreate.setOnClickListener(new View.OnClickListener() {
             @Override
