@@ -30,4 +30,23 @@
     <string name="login_failed">"Login failed"</string>
     <string name="txt_welcome">WELCOME TO HAPPY PAWS!</string>
     <string name="txt_instructions">Use the hamburger menu in the top right corner to navigate.</string>
+    <string name="title_activity_pets_home_screen">petsHomeScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="link_petsApptHistory">Appointment History</string>
+    <string name="link_petsCurrentRX">Current Prescriptions</string>
+    <string name="link_petsVax">Vaccinations</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
 </resources>

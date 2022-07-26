@@ -1,20 +1,16 @@
 package com.example.vetapp;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 public class createaccount extends AppCompatActivity {
 
@@ -36,6 +32,8 @@ public class createaccount extends AppCompatActivity {
         accUsername = findViewById(R.id.txt_create_username);
         accPassword = findViewById(R.id.txt_create_password);
         insert = (Button) findViewById(R.id.btn_createaccount);
+        Intent intent = new Intent(this, homescreen.class);
+        this.startActivity( intent );
 
         insert.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +46,8 @@ public class createaccount extends AppCompatActivity {
                 String passwordTXT = accPassword.getText().toString();
                 userAccount = new UserAccount();
                 reff = FirebaseDatabase.getInstance().getReference().child("UserAccount");
+
+
 
                 insert.setOnClickListener(new View.OnClickListener() {
                     @Override
