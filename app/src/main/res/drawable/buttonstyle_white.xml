@@ -8,6 +8,5 @@
 
 
     <!--- This is the background color -->
-    <solid android:color="#FFFFFF" />
-
+    <solid android:color="#FFFFFF"/>
 </shape>

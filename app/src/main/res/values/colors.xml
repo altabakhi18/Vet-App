@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="hpliblue">#33C3FF</color>
+    <color name="hpdkblue">#2D8BB3</color>
+    <color name="hpgold">#FFC826</color>
+    <color name="hpdkpurple">#4609B3</color>
+    <color name="hpgoldlipurple">#6C19FF</color>
 </resources>

@@ -29,7 +29,7 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="txt_welcome">WELCOME TO HAPPY PAWS!</string>
-    <string name="txt_instructions">Use the hamburger menu in the top right corner to navigate.</string>
+    <string name="txt_instructions">Use the buttons below to navigate.</string>
     <string name="title_activity_pets_home_screen">petsHomeScreen</string>
     <!-- Strings used for fragments for navigation -->
     <string name="next">Next</string>
@@ -37,5 +37,7 @@
     <string name="link_petsApptHistory">Appointment History</string>
     <string name="link_petsCurrentRX">Current Prescriptions</string>
     <string name="link_petsVax">Vaccinations</string>
-
+    <string name="btn_pets">Pets</string>
+    <string name="btn_appts">Appointments</string>
+    <string name="btn_emergency">Emergency</string>
 </resources>
