@@ -45,4 +45,26 @@
     <string name="appointment_date">05/11/2020</string>
     <string name="appointment_notes">Right ear infection. Prescribed antibiotics. Use daily for 4 weeks by mouth.</string>
     <string name="appointment_id">000001</string>
+
+
+    <string name="aptReq_fullName">full name</string>
+    <string name="aptReq_phone">phone</string>
+    <string name="aptReq_petName">pet\'s name</string>
+    <string name="aptReq_problem">problem / needs</string>
+    <string name="aptReq_date">preferred date</string>
+    <string name="aptReq_time">preferred time</string>
+    <string name="aptReq_btn_submit">SUBMIT</string>
+
+
+
+    <string name="txt_petApptHistory">Your Appointment History</string>
+    <string name="txt_petVax">Your Pet\'s Vaccinations</string>
+    <string name="txt_petRX">Your Pet\'s Prescriptions</string>
+
+
+    <string name="large_text">large text</string>
+    <string name="action_settings">action settings</string>
+
+
+
 </resources>
