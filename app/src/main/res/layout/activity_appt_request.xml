@@ -7,4 +7,27 @@
     android:background="@drawable/happypaws_blueback"
     tools:context=".appt_request">
 
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/appt_fullName"
+        android:layout_width="311dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="48dp"
+        android:background="@drawable/rounded_corner_yellow"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/appt_fullName"
+        android:lineSpacingExtra="8sp"
+        android:paddingStart="10sp"
+        android:paddingEnd="10sp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/hpdkblue"
+        android:textColorHighlight="#FFF899"
+        android:textColorHint="@color/material_dynamic_secondary40"
+        android:textSize="16sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
