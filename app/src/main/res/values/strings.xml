@@ -38,13 +38,29 @@
     <string name="link_petsCurrentRX">Current Prescriptions</string>
     <string name="link_petsVax">Vaccinations</string>
     <string name="btn_pets">Pets</string>
-    <string name="btn_appts">Appointments</string>
+    <string name="btn_appts">REQUEST APPOINTMENT</string>
     <string name="btn_emergency">Emergency</string>
-    <string name="txt_appointment_id">000001</string>
-    <string name="pet_name">Fluffy</string>
-    <string name="appointment_date">05/11/2020</string>
-    <string name="appointment_notes">Right ear infection. Prescribed antibiotics. Use daily for 4 weeks by mouth.</string>
-    <string name="appointment_id">000001</string>
+
+
+    <string name="txt_appt_id">APPOINTMENT ID:</string>
+    <string name="txt_appt_petname">PET NAME:</string>
+    <string name="txt_appt_date">DATE:</string>
+    <string name="txt_appt_notes">NOTES:</string>
+
+    <string name="txt_appt_id2">APPOINTMENT ID:</string>
+    <string name="txt_appt_petname2">PET NAME:</string>
+    <string name="txt_appt_date2">DATE:</string>
+    <string name="txt_appt_notes2">NOTES:</string>
+
+    <string name="appt_id">000008</string>
+    <string name="appt_petname">Fluffy</string>
+    <string name="appt_date">05/28/2022</string>
+    <string name="appt_notes">Fluffy\'s infection is gone. He is doing well and is healthy. 1 year check-up in October..</string>
+
+    <string name="appt_id2">000001</string>
+    <string name="appt_petname2">Fluffy</string>
+    <string name="appt_date2">05/08/2022</string>
+    <string name="appt_notes2">Fluffy had an ear infection. Cleaned ear with swabs. Prescribed antibiotic and ear cleaner. Come back in 2 weeks.</string>
 
 
     <string name="aptReq_fullName">full name</string>
@@ -60,6 +76,12 @@
     <string name="txt_petApptHistory">Your Appointment History</string>
     <string name="txt_petVax">Your Pet\'s Vaccinations</string>
     <string name="txt_petRX">Your Pet\'s Prescriptions</string>
+
+    <string name="txt_emergency_vet">Emergency Vet: 312-842-4654</string>
+    <string name="txt_emergency_poison">Poison Control: 800-456-4561</string>
+    <string name="btn_emergency_home">HOME</string>
+
+
 
 
     <string name="large_text">large text</string>

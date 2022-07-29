@@ -4,6 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/happypaws_purpleback"
     tools:context=".emergency">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_emergency_home"
+        android:layout_width="119dp"
+        android:layout_height="48dp"
+        android:background="@color/hpgold"
+        android:fontFamily="sans-serif-condensed"
+        android:foregroundTint="#FFFFFF"
+        android:text="@string/btn_emergency_home"
+        android:textColor="@color/hpdkblue"
+        android:textColorHint="@color/hpdkblue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_emergency_poison"
+        app:layout_constraintVertical_bias="0.239"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/txt_emergency_vet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/hpgold"
+        android:padding="10dp"
+        android:text="@string/txt_emergency_vet"
+        android:textColor="@color/hpdkpurple"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_emergency_poison"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877" />
+
+    <TextView
+        android:id="@+id/txt_emergency_poison"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/hpgold"
+        android:padding="10dp"
+        android:text="@string/txt_emergency_poison"
+        android:textColor="@color/hpdkpurple"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, petsHomeScreen.class));
                 break;
             case R.id.btn_appts:
-                startActivity(new Intent(MainActivity.this, appts.class));
+                startActivity(new Intent(MainActivity.this, appt_request.class));
                 break;
             case R.id.btn_emergency:
                 startActivity(new Intent(MainActivity.this, emergency.class));
