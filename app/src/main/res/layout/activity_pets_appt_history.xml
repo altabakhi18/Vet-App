@@ -4,6 +4,269 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".petsApptHistory">
 
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/hpgold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appt_notes2"
+        app:layout_constraintVertical_bias="0.289" />
+
+    <TextView
+        android:id="@+id/txt_appt_notes2"
+        android:layout_width="50dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="240dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/txt_appt_notes2"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/appt_date"
+        android:layout_width="119dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/appt_date"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/appt_notes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toEndOf="@+id/txt_appt_date" />
+
+    <TextView
+        android:id="@+id/appt_petname2"
+        android:layout_width="155dp"
+        android:layout_height="21dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/appt_id2"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/appt_date2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toEndOf="@+id/txt_appt_petname2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858" />
+
+    <TextView
+        android:id="@+id/appt_id2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/appt_petname2"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/appt_date2"
+        app:layout_constraintTop_toBottomOf="@+id/appt_petname2"
+        app:layout_constraintVertical_bias="0.761"
+        tools:layout_editor_absoluteX="181dp" />
+
+    <TextView
+        android:id="@+id/txt_appt_id2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/txt_appt_id2"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_appt_petname2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <TextView
+        android:id="@+id/txt_appt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/txt_appt_date"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_appt_notes"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/hpgold"
+        app:layout_constraintBottom_toTopOf="@+id/appt_petname2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appt_notes" />
+
+    <TextView
+        android:id="@+id/txt_appt_notes"
+        android:layout_width="50dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginBottom="148dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/txt_appt_notes"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_appt_id2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_appt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/txt_appt_id"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_appt_petname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <TextView
+        android:id="@+id/appt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/appt_date"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/appt_petname"
+        tools:layout_editor_absoluteX="181dp" />
+
+    <TextView
+        android:id="@+id/appt_petname"
+        android:layout_width="155dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/appt_petname"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/appt_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toEndOf="@+id/txt_appt_petname" />
+
+    <TextView
+        android:id="@+id/txt_appt_petname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/txt_appt_petname"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_appt_date"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/appt_notes2"
+        android:layout_width="202dp"
+        android:layout_height="109dp"
+        android:layout_marginBottom="148dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/appt_notes2"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toEndOf="@+id/txt_appt_notes2" />
+
+    <TextView
+        android:id="@+id/appt_date2"
+        android:layout_width="119dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/appt_date2"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/appt_notes2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toEndOf="@+id/txt_appt_date2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/hpgold"
+        app:layout_constraintBottom_toTopOf="@+id/appt_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_appt_date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/txt_appt_date2"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_appt_notes2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_appt_petname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/txt_appt_petname2"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_appt_date2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/appt_notes"
+        android:layout_width="202dp"
+        android:layout_height="109dp"
+        android:layout_marginBottom="68dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/appt_notes"
+        android:textColor="#2E8BB3"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/appt_petname2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toEndOf="@+id/txt_appt_notes" />
+
+    =
 </androidx.constraintlayout.widget.ConstraintLayout>
