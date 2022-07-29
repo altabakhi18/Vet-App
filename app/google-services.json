@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "1052547100691",
-    "firebase_url": "https://happy-paws-4143f-default-rtdb.firebaseio.com",
-    "project_id": "happy-paws-4143f",
-    "storage_bucket": "happy-paws-4143f.appspot.com"
+    "project_number": "823406790168",
+    "firebase_url": "https://happy-paws-83d16-default-rtdb.firebaseio.com",
+    "project_id": "happy-paws-83d16",
+    "storage_bucket": "happy-paws-83d16.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1052547100691:android:364ec8214527ff821ecfe6",
+        "mobilesdk_app_id": "1:823406790168:android:1d696826f7e518e9b5256d",
         "android_client_info": {
           "package_name": "com.example.vetapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1052547100691-ouvfar8kiniimn7c9lsbvlnl455138vh.apps.googleusercontent.com",
+          "client_id": "823406790168-k0e3bgodpaj1gelf5n2ibs39v9intnbl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBVc69Te3rV4PzUNJjaV_LObjroz68UOiQ"
+          "current_key": "AIzaSyADWRBQLrBfZx3h3xq-hhLKVnE10UomMX8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1052547100691-ouvfar8kiniimn7c9lsbvlnl455138vh.apps.googleusercontent.com",
+              "client_id": "823406790168-k0e3bgodpaj1gelf5n2ibs39v9intnbl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

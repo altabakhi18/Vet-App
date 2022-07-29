@@ -40,4 +40,9 @@
     <string name="btn_pets">Pets</string>
     <string name="btn_appts">Appointments</string>
     <string name="btn_emergency">Emergency</string>
+    <string name="txt_appointment_id">000001</string>
+    <string name="pet_name">Fluffy</string>
+    <string name="appointment_date">05/11/2020</string>
+    <string name="appointment_notes">Right ear infection. Prescribed antibiotics. Use daily for 4 weeks by mouth.</string>
+    <string name="appointment_id">000001</string>
 </resources>
