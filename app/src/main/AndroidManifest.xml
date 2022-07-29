@@ -14,7 +14,31 @@
         android:theme="@style/Theme.VetApp"
         tools:targetApi="31">
         <activity
+            android:name=".petsVax"
+            android:exported="false" />
+        <activity
+            android:name=".petsRX"
+            android:exported="false" />
+        <activity
+            android:name=".petsApptHistory"
+            android:exported="false" />
+        <activity
+            android:name=".petsHomeScreen"
+            android:exported="false"
+            android:label="@string/title_activity_pets_home_screen"
+            android:theme="@style/Theme.VetApp.NoActionBar" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".createaccount"
+            android:exported="false" />
+        <activity
+            android:name=".login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
