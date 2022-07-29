@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class createaccount extends AppCompatActivity {
+class createAccount extends AppCompatActivity {
 
     EditText accFirstName, accLastName, accPhone, accEmail, accUsername, accPassword;
     //Button insert, update, delete;
@@ -26,6 +26,14 @@ public class createaccount extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_createaccount);
+        TextView accountLogin = (TextView) findViewById(R.id.txt_create_backtologin);
+        accountLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(createAccount.this, createAccount.class));
+            }
+        });
+
 
         accFirstName = findViewById(R.id.txt_create_firstname);
         accLastName = findViewById(R.id.txt_create_lastname);
@@ -64,7 +72,7 @@ public class createaccount extends AppCompatActivity {
                         userAccount.setPassword(passwordTXT);
 
                         reff.push().setValue(userAccount);
-                        Toast.makeText(createaccount.this, "data inserted successfully", Toast.LENGTH_LONG).show();
+                        Toast.makeText(createAccount.this, "data inserted successfully", Toast.LENGTH_LONG).show();
                     }
                 });
             }
