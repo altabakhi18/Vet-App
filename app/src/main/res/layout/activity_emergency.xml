@@ -4,21 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".petsVax">
+    android:background="@drawable/happypaws_purpleback"
+    tools:context=".emergency">
 
-    <TextView
-        android:id="@+id/txt_petRX"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_home"
+        android:layout_width="119dp"
+        android:layout_height="48dp"
+        android:background="@color/hpgold"
         android:fontFamily="sans-serif-condensed"
-        android:text="@string/txt_petVax"
+        android:foregroundTint="#FFFFFF"
+        android:text="@string/btn_home"
         android:textColor="@color/hpdkblue"
-        android:textSize="24sp"
+        android:textColorHint="#2E8BB3"
+        android:textSize="16sp"
         android:textStyle="bold"
+        android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.138" />
+        app:layout_constraintVertical_bias="0.764" />
 </androidx.constraintlayout.widget.ConstraintLayout>
