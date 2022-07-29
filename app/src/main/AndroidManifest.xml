@@ -20,6 +20,12 @@
             android:name=".appts"
             android:exported="false" />
         <activity
+            android:name=".emergency"
+            android:exported="false" />
+        <activity
+            android:name=".appt_request"
+            android:exported="false" />
+        <activity
             android:name=".petsVax"
             android:exported="false" />
         <activity
