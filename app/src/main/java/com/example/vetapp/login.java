@@ -26,7 +26,6 @@ public class login extends AppCompatActivity implements View.OnClickListener{
         TextView accountCreate = (TextView) findViewById(R.id.txt_createAccountLink);
         accountCreate.setOnClickListener(this);
 
-
         Button login = (Button) findViewById(R.id.btn_login);
         login.setOnClickListener(this);
 
@@ -39,7 +38,7 @@ public class login extends AppCompatActivity implements View.OnClickListener{
                 String un = username.getText().toString();
                 String pw = password.getText().toString();
 
-                if(un == "default" && pw == "password"){
+                if(un.equals("default")&& pw.equals("password")){
                     Toast.makeText(login.this, "Login Successful", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent);
