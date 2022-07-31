@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DatabaseReference;
 
-public class login extends AppCompatActivity implements View.OnClickListener{
+public abstract class login extends AppCompatActivity implements View.OnClickListener {
 
     EditText username, password;
     //Button insert, update, delete, view;
@@ -38,26 +38,15 @@ public class login extends AppCompatActivity implements View.OnClickListener{
                 String un = username.getText().toString();
                 String pw = password.getText().toString();
 
-                if(un.equals("default")&& pw.equals("password")){
+                if (un.equals("default") && pw.equals("password")) {
                     Toast.makeText(login.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                    startActivity(intent);
-                }
-                else{
+                    startActivity(new Intent(login.this, createAccount.class));
+                } else {
                     Toast.makeText(login.this, "Try again", Toast.LENGTH_SHORT).show();
                 }
+
             }
+
         });
-    }
-    @Override
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.txt_createAccountLink:
-                startActivity(new Intent(login.this, createAccount.class));
-                break;
-            case R.id.btn_login:
-                startActivity(new Intent(login.this, MainActivity.class));
-                break;
-        }
     }
 }
