@@ -40,10 +40,11 @@ public abstract class login extends AppCompatActivity implements View.OnClickLis
 
                 if (un.equals("default") && pw.equals("password")) {
                     Toast.makeText(login.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(login.this, createAccount.class));
+                    startActivity(new Intent(login.this, MainActivity.class));
                 } else {
                     Toast.makeText(login.this, "Try again", Toast.LENGTH_SHORT).show();
                 }
+
 
             }
 
