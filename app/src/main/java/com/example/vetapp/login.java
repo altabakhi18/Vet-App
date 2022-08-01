@@ -35,7 +35,7 @@ public class login extends AppCompatActivity implements View.OnClickListener{
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.txt_createAccountLink:
-                startActivity(new Intent(login.this, createAccount.class));
+                startActivity(new Intent(login.this, createaccount.class));
                 break;
             case R.id.btn_login:
                 startActivity(new Intent(login.this, MainActivity.class));

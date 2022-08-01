@@ -1,20 +1,22 @@
 package com.example.vetapp;
 
-import android.content.Intent;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
-import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
-class createAccount extends AppCompatActivity {
+public class createaccount extends AppCompatActivity {
 
     EditText accFirstName, accLastName, accPhone, accEmail, accUsername, accPassword;
     //Button insert, update, delete;
@@ -26,14 +28,6 @@ class createAccount extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_createaccount);
-        TextView accountLogin = (TextView) findViewById(R.id.txt_create_backtologin);
-        accountLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(createAccount.this, createAccount.class));
-            }
-        });
-
 
         accFirstName = findViewById(R.id.txt_create_firstname);
         accLastName = findViewById(R.id.txt_create_lastname);
@@ -42,8 +36,6 @@ class createAccount extends AppCompatActivity {
         accUsername = findViewById(R.id.txt_create_username);
         accPassword = findViewById(R.id.txt_create_password);
         insert = (Button) findViewById(R.id.btn_createaccount);
-        Intent intent = new Intent(this, homescreen.class);
-        this.startActivity( intent );
 
         insert.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,10 +48,6 @@ class createAccount extends AppCompatActivity {
                 String passwordTXT = accPassword.getText().toString();
                 userAccount = new UserAccount();
                 reff = FirebaseDatabase.getInstance().getReference().child("UserAccount");
-                TextView createAccount = (TextView) findViewById(R.id.txt_create_backtologin);
-                createAccount.setMovementMethod(LinkMovementMethod.getInstance());
-
-
 
                 insert.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -72,7 +60,7 @@ class createAccount extends AppCompatActivity {
                         userAccount.setPassword(passwordTXT);
 
                         reff.push().setValue(userAccount);
-                        Toast.makeText(createAccount.this, "data inserted successfully", Toast.LENGTH_LONG).show();
+                        Toast.makeText(createaccount.this, "data inserted successfully", Toast.LENGTH_LONG).show();
                     }
                 });
             }
