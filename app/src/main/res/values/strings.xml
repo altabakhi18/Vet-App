@@ -42,6 +42,15 @@
     <string name="btn_emergency">Emergency</string>
 
 
+    <string name="txt_vax_type">VACCINATION</string>
+    <string name="txt_vax_name">RABIES/3-YEAR</string>
+
+    <string name="txt_vax_date">DATE</string>
+    <string name="txt_vax_date2">05/08/2022</string>
+
+    <string name="txt_appt_history_title">Your Pet\'s History</string>
+
+
     <string name="txt_appt_id">APPOINTMENT ID:</string>
     <string name="txt_appt_petname">PET NAME:</string>
     <string name="txt_appt_date">DATE:</string>
@@ -80,6 +89,9 @@
     <string name="txt_emergency_vet">Emergency Vet: 312-842-4654</string>
     <string name="txt_emergency_poison">Poison Control: 800-456-4561</string>
     <string name="btn_emergency_home">HOME</string>
+
+
+    <string name="txt_RX_none">NO CURRENT PRESCRIPTIONS</string>
 
 
 
