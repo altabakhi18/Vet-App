@@ -20,16 +20,9 @@
             android:name=".appts"
             android:exported="false" />
         <activity
-            android:name=".emergency"
-            android:exported="false" />
-        <activity
             android:name=".appt_request"
             android:exported="false" />
-        <activity
-            android:name=".navigation"
-            android:exported="false"
-            android:label="@string/title_activity_navigation"
-            android:theme="@style/Theme.VetApp.NoActionBar" />
+
         <activity
             android:name=".petsVax"
             android:exported="false" />
@@ -47,13 +40,11 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
         <activity
-            android:name=".ui.login.LoginActivity"
-            android:exported="false"
-            android:label="@string/title_activity_login" />
-        <activity
-            android:name=".createaccount"
+            android:name=".createAccount"
             android:exported="false" />
+
         <activity
             android:name=".login"
             android:exported="true" >

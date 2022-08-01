@@ -1,18 +1,17 @@
 package com.example.vetapp;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DatabaseReference;
 
-public abstract class login extends AppCompatActivity implements View.OnClickListener {
+public class login extends AppCompatActivity implements View.OnClickListener{
 
     EditText username, password;
     //Button insert, update, delete, view;
@@ -31,23 +30,15 @@ public abstract class login extends AppCompatActivity implements View.OnClickLis
 
         username = (EditText) findViewById(R.id.txt_login_username);
         password = (EditText) findViewById(R.id.txt_login_password);
-
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String un = username.getText().toString();
-                String pw = password.getText().toString();
-
-                if (un.equals("default") && pw.equals("password")) {
-                    Toast.makeText(login.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(login.this, MainActivity.class));
-                } else {
-                    Toast.makeText(login.this, "Try again", Toast.LENGTH_SHORT).show();
-                }
-
-
-            }
-
-        });
     }
-}
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.txt_createAccountLink:
+                startActivity(new Intent(login.this, createAccount.class));
+                break;
+            case R.id.btn_login:
+                startActivity(new Intent(login.this, MainActivity.class));
+                break;
+        }
+    }}

@@ -13,7 +13,10 @@
         <entry key="app/src/main/res/drawable/buttonstyle_white.xml" value="0.3865" />
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.51" />
         <entry key="app/src/main/res/drawable/rounded_corner_yellow.xml" value="0.3865" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.2751004016064257" />
+        <entry key="app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.2751004016064257" />
         <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.18203551912568305" />
+        <entry key="app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.3125" />
         <entry key="app/src/main/res/layout/activity_appt_request.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_createaccount.xml" value="0.45" />
         <entry key="app/src/main/res/layout/activity_emergency.xml" value="0.4125" />
@@ -28,6 +31,8 @@
         <entry key="app/src/main/res/layout/content_navigation.xml" value="0.19148936170212766" />
         <entry key="app/src/main/res/layout/content_navigation_drawer.xml" value="0.375" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.4125" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.428125" />
+        <entry key="app/src/main/res/menu/menu_appt_request.xml" value="0.428125" />
       </map>
     </option>
   </component>
