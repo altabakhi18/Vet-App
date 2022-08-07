@@ -19,15 +19,17 @@
     <string name="txt_create_phone">phone (must be US number--1-321-123-1234)</string>
     <string name="txt_create_backtologin">ALREADY HAVE AN ACCOUNT? LOGIN!</string>
     <string name="btn_createaccount">CREATE ACCOUNT</string>
+
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
+    <string name="welcome">"Welcome!"</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+
     <string name="txt_welcome">WELCOME TO HAPPY PAWS!</string>
     <string name="txt_instructions">Use the buttons below to navigate.</string>
     <string name="title_activity_pets_home_screen">petsHomeScreen</string>
