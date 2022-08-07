@@ -1,5 +1,6 @@
 package com.example.vetapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -20,6 +21,8 @@ public class appt_request extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(appt_request.this, "Thank you for your request!", Toast.LENGTH_SHORT).show();
+
+                startActivity(new Intent(appt_request.this, MainActivity.class));
             }
         });
     }

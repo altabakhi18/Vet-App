@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VetApp</string>
+    <string name="app_name">Happy Paws</string>
     <string name="img_happyPawslogo">Happy Paws Logo</string>
     <string name="logo_description">Happy Paws Logo</string>
     <string name="img_homescreenBackground">Happy Paws Logo on Yellow background</string>
@@ -16,7 +16,7 @@
     <string name="txt_create_password">password</string>
     <string name="txt_create_passwordverify">verify password</string>
     <string name="txt_create_email">email</string>
-    <string name="txt_create_phone">phone</string>
+    <string name="txt_create_phone">phone (numbers only, no dashes)</string>
     <string name="txt_create_backtologin">ALREADY HAVE AN ACCOUNT? LOGIN!</string>
     <string name="btn_createaccount">CREATE ACCOUNT</string>
     <string name="title_activity_login">LoginActivity</string>
@@ -40,6 +40,8 @@
     <string name="btn_pets">Pets</string>
     <string name="btn_appts">REQUEST APPOINTMENT</string>
     <string name="btn_emergency">Emergency</string>
+
+    <string name="link_petshome_HOME">HOME</string>
 
 
     <string name="txt_vax_type">VACCINATION</string>

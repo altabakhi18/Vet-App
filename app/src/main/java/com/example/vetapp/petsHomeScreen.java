@@ -18,9 +18,11 @@ public class petsHomeScreen extends AppCompatActivity implements View.OnClickLis
         TextView button1 = findViewById(R.id.link_petsApptHistory);
         TextView button2 = findViewById(R.id.link_petsCurrentRX);
         TextView button3 = findViewById(R.id.link_petsVax);
+        TextView button4 = findViewById(R.id.link_petshome_HOME);
         button1.setOnClickListener(this);
         button2.setOnClickListener(this);
         button3.setOnClickListener(this);
+        button4.setOnClickListener(this);
     }
 
     @Override
@@ -34,6 +36,9 @@ public class petsHomeScreen extends AppCompatActivity implements View.OnClickLis
                 break;
             case R.id.link_petsVax:
                 startActivity(new Intent(petsHomeScreen.this, petsVax.class));
+                break;
+            case R.id.link_petshome_HOME:
+                startActivity(new Intent(petsHomeScreen.this, MainActivity.class));
                 break;
         }
     }

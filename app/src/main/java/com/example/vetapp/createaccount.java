@@ -3,6 +3,7 @@ package com.example.vetapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,6 +17,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+
 public class createaccount extends AppCompatActivity {
 
     EditText accFirstName, accLastName, accPhone, accEmail, accUsername, accPassword;
@@ -23,6 +25,7 @@ public class createaccount extends AppCompatActivity {
     Button insert;
     DatabaseReference reff;
     UserAccount userAccount;
+    int phoneInt = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,10 +63,20 @@ public class createaccount extends AppCompatActivity {
                         userAccount.setPassword(passwordTXT);
 
                         reff.push().setValue(userAccount);
-                        Toast.makeText(createaccount.this, "data inserted successfully", Toast.LENGTH_LONG).show();
+                        Toast.makeText(createaccount.this, "Account Created Successfully!", Toast.LENGTH_LONG).show();
+                        startActivity(new Intent(createaccount.this, login.class));
+
                     }
                 });
             }
         });
+    }
+
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.txt_create_backtologin:
+                startActivity(new Intent(createaccount.this, login.class));
+                break;
+        }
     }
 }

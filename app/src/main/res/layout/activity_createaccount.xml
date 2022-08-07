@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"> <!--IMPORTANT otherwise backgrnd img. will not fill the whole screen -->
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/happypaws_yellowback"
-    tools:context=".com.example.vetapp.createAccount">
+    tools:context=".com.example.vetapp.createaccount">
 
     <TextView
         android:id="@+id/txt_create_backtologin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="40dp"
         android:text="@string/txt_create_backtologin"
         android:textColor="#2E8BB3"
         android:textStyle="bold"
@@ -82,9 +90,11 @@
         android:textColorHint="@color/white"
         android:textSize="16sp"
         android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_create_password" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_create_password"
+        app:layout_constraintVertical_bias="0.005" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/txt_create_email"
@@ -192,6 +202,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_create_passwordverify"
-        app:layout_constraintVertical_bias="0.346" />
+        app:layout_constraintVertical_bias=".2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
