@@ -16,7 +16,7 @@
     <string name="txt_create_password">password</string>
     <string name="txt_create_passwordverify">verify password</string>
     <string name="txt_create_email">email</string>
-    <string name="txt_create_phone">phone (numbers only, no dashes)</string>
+    <string name="txt_create_phone">phone (must be US number--1-321-123-1234)</string>
     <string name="txt_create_backtologin">ALREADY HAVE AN ACCOUNT? LOGIN!</string>
     <string name="btn_createaccount">CREATE ACCOUNT</string>
     <string name="title_activity_login">LoginActivity</string>
