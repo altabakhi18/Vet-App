@@ -4,7 +4,7 @@ public class UserAccount {
     private int ID;
     private String firstName;
     private String lastName;
-    private int phone;
+    private String phone;
     private String email;
     private String username;
     private String password;
@@ -37,11 +37,11 @@ public class UserAccount {
         this.lastName = lastName;
     }
 
-    public int getPhone() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
