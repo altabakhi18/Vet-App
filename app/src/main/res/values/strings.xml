@@ -3,7 +3,7 @@
     <string name="img_happyPawslogo">Happy Paws Logo</string>
     <string name="logo_description">Happy Paws Logo</string>
     <string name="img_homescreenBackground">Happy Paws Logo on Yellow background</string>
-    <string name="txt_login_username">username</string>
+    <string name="txt_login_username">email</string>
     <string name="txt_login_password">password</string>
     <string name="txt_HP_address">3232 Southpaw Lane</string>
     <string name="txt_HP_cityState">Chicago, Illinois</string>
